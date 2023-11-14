@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+
+}
+.items{
+    margin: 30px;
+    padding: 10px;
+}
+.button{
+    border-radius: 10px;
+    height: 40px;
+
+}
+.button:hover{
+    background-color: rgba(184, 182, 182, 0.9);
+}
+</style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+           
+            <h1 class="text-center">Fix Your Own Content In a Box </h1>
+            <div class="col-sm-12 col-lg-12 bg-warning mt-2">
+                
+                
+                <input type="text" class="form-control mt-2" placeholder="Enter Title" id="title" maxlength="15" >
+                <textarea name="textarea" id="content" cols="5" rows="5" class="form-control mt-3"
+                placeholder="Enter Content" maxlength="150" ></textarea>
+        <button type="submit" class="btn btn-light btn-lg mt-3 mb-3" onclick="addDiv()" id="btnClear">Add</button>
+      
+    
+    </div>
+    
+</div>
+<div class="row">
+    <div class="col-sm-12 col-lg-12">
+        <div class="parent"></div>
+        
+    </div>
+</div>
+</div>
+<script src="dom.js"></script>
+</body>
+</html>
